@@ -19,7 +19,7 @@ pipeline {
         }
         stage('push') {
             steps {
-                sh 'docker login -u mupparaju0007 -p $password'
+                sh 'docker login -u mddadapeer -p $password'
                 sh 'docker push $repo'
             }
         }
